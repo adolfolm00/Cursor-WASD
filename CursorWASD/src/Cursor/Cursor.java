@@ -18,8 +18,6 @@ public class Cursor {
 		String palabra;
 		char index;
 		int menu=0;
-		int fila;
-		int columna;
 		 mapaView[1][1]=1;
 		for(int f=0;f<mapaView.length;f++) {
 			for(int c=0;c<mapaView[2].length;c++) {
@@ -70,6 +68,8 @@ public class Cursor {
 			
 			
 		}while(menu==0);
+		
+		sc.close();
 		
 
 	}
