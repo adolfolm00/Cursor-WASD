@@ -36,7 +36,7 @@ public class Cursor {
 			
 			palabra=sc.next();
 			index=palabra.charAt(0);
-			
+			//
 			
 			switch(index) {
 			case 'w': 
